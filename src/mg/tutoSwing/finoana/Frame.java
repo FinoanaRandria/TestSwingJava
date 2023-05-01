@@ -14,5 +14,8 @@ public class Frame extends JFrame{
           setResizable(true);  //true or false resize
           setLocationRelativeTo(null);// position au millieu de l ecran au demarage
           setVisible(true);  // pour affichier la fenetre 
+	  
+	       add(new Panel());
+	  
 	  }
 }
